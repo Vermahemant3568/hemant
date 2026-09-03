@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@theme {
+  /* ── Change these to switch the entire theme ── */
+
+  /* Backgrounds */
+  --color-bg-primary:   #f8fafc;
+  --color-bg-secondary: #f1f5f9;
+  --color-bg-card:      #ffffff;
+  --color-bg-card-hover:#f8fafc;
+  --color-bg-nav:       #ffffffee;
+
+  /* Borders */
+  --color-border:       #e2e8f0;
+  --color-border-hover: #94a3b8;
+  --color-border-accent:#0891b2;
+
+  /* Text */
+  --color-text-primary: #0f172a;
+  --color-text-secondary:#475569;
+  --color-text-muted:   #94a3b8;
+
+  /* Accent (buttons, highlights, icons) */
+  --color-accent:       #0891b2;
+  --color-accent-hover: #0e7490;
+  --color-accent-bg:    #ecfeff;
+  --color-accent-text:  #0e7490;
+
+  /* Tag / pill backgrounds */
+  --color-tag-bg:       #f1f5f9;
+  --color-tag-text:     #334155;
+  --color-tag-border:   #e2e8f0;
+
+  /* Shadow */
+  --color-shadow:       rgba(0,0,0,0.08);
+}
